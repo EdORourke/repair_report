@@ -14,19 +14,7 @@ if(isset($_POST['submit'])){
             $name = $_POST['user'];
         }else{
             echo "Name failed";
-        }
-
-
-        if(preg_match('/^[improv3315!]{11}$/', $_POST['pw'])){
-            $pw = $_POST['pw'];
-        }else{
-            echo "failure4";
-        }
-
-
-
-
-        
+        }       
     }else{
         $errorMessage .= 'Username Required';
     }
